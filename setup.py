@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="nlp-lab-pkg-i061", # Make this unique on PyPI
-    version="0.0.1",
+    name="nlp-lab-pkg-i061-oct25", # Make this unique on PyPI
+    version="0.0.2",
     author="Jind Saini",
-    author_email="jindsaini20gmail.com",
+    author_email="jindsaini20@gmail.com",
     description="NLP Lab utilities for tokenization, stemming, and tagging.",
     long_description=long_description,
     long_description_content_type="text/markdown",

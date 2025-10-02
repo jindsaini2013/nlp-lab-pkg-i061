@@ -16,7 +16,7 @@ try:
     nltk.data.find('tokenizers/punkt')
     nltk.data.find('corpora/wordnet')
     nltk.data.find('taggers/averaged_perceptron_tagger')
-except nltk.downloader.DownloadError:
+except LookupError:
     print("Downloading required NLTK data...")
     nltk.download('punkt')
     nltk.download('stopwords')
